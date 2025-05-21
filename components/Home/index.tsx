@@ -3,6 +3,7 @@
 import { FarcasterActions } from "@/components/Home/FarcasterActions";
 import { User } from "@/components/Home/User";
 import { WalletActions } from "@/components/Home/WalletActions";
+import { KuruExchange } from "@/components/Home/KuruExchange";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <User />
         <FarcasterActions />
         <WalletActions />
+        <KuruExchange />
       </div>
     </div>
   );
